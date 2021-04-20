@@ -16,10 +16,10 @@ The dataset simulates the challenge of a large delivery company in the
 last-mile step of the supply chain. Worldwide, metropolitan areas like Rio de
 Janeiro witness the delivery of tens or even hundreds of thousands of parcels
 and mail.  Deliveries on those areas are unexpectedly very unevenly
-distributed. Rich and densily populated areas drive most of the deliveries.
-Besides economic factors, our data also do consider the geography of the
+distributed. Rich and densely populated areas drive most of the deliveries.
+Besides, economic factors, our data also do consider the geography of the
 represented locations and real street travel distances, as the reality of
-complex cities is not well modelled by euclidian distances.
+complex cities is not well modelled by euclidean distances.
 
 On our first version, We provide 90 train instances and 30 evaluation instances
 for the end-to-end problem on Rio de Janeiro (RJ), Brasília (DF) and Belém (PA).
@@ -43,15 +43,15 @@ src="./figures/cvrp_example_4.png" width="400" /> </p>
 ### Task 1 - Last-Mile Capacitated Vehicle Routing Problem
 
 This first task is a classic Capacitated Vehicle Routing Problem (CVRP) with
-minimizing travel distance as objetive. Although solving such large CVRPs with
+minimizing travel distance as objective. Although solving such large CVRPs with
 complete information is often impractical, these solutions are good targets for
 Task 2.
 
 ### Task 2 - Last-Mile Incremental Capacitated Vehicle Routing Problem
 
 This is considered a particular case of Stochastic and Dynamic Capacitated
-Vehicle Routing Problems (SD-CVRP). The objetive is to sort deliveries into
-routes one by one as they arrive. You may use only historical information and
+Vehicle Routing Problems (SD-CVRP). The objective is to sort deliveries into
+routes one by one as they arrive. You may use only historical information, and
 the previously routed deliveries from the same instance. No recombination is
 allowed after assignment.
 
@@ -63,7 +63,7 @@ operators can route deliveries as they arrive.
 
 This is an extension of the task 1.2, but without fixed dispatch locations.
 Therefore, locations and allocation of requests to dispatch locations is
-considered part of the solution, but should be the same accross multiple
+considered part of the solution, but should be the same across multiple
 instances. This can be considered an end-to-end optimization of last-mile
 delivery operations.
 
@@ -130,7 +130,8 @@ provided instances.
 If you use this data in academic work, please cite our repository. A full paper
 describing it should be available soon.
 
-```@misc{Charles2013,
+```
+@misc{Charles2013,
   author = {Loggi},
   title = {loggiBUD: Loggi Benchmark for Urban Deliveries},
   year = {2021},
